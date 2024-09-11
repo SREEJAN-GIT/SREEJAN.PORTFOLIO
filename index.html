@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <!--navbar-->
+    <nav>
+        <div class="left">
+            <a href="#">SREEJAN</a>
+        </div>
+
+
+        <div class="right">
+            <a href="https://www.instagram.com/__sreejan_0_0_/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+                <span>INSTAGRAM</span>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LINKED In</span>
+            </a>
+
+            <a href="#contact">
+                <i class="fa-solid fa-envelope"></i>
+                <span>E-MAIL</span>
+            </a>
+        </div>
+    </nav>
+    <main>
+        <!--SECTION:1 - HERO-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm SREEJAN</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id soluta officiis recusandae placeat, aliquam nesciunt explicabo veniam reiciendis laborum iusto atque magnam voluptates odio ipsam possimus delectus doloribus qui porro dignissimos blanditiis molestiae quam! Aliquam, sed soluta quis accusamus tenetur repellendus iste ex possimus nemo, rerum officia odio quidem fugit.</p>
+
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="GOJO.jpg" alt="picture">
+            </div>
+            
+        </section>
+        <!--SECTION:2 - SKILLS-->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odit laudantium error nam tempora recusandae nobis quibusdam voluptatum voluptatibus similique nemo quae nulla, id adipisci sit a officiis rem? Sequi?
+            </div> 
+
+            <div class="cells">
+
+                <div class="cell">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+
+                
+                <div class="cell">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="cell">
+                    <i class="fa-brands fa-node"></i>
+                    <span>Node.js</span>
+                </div>
+
+                <div class="cell">
+                    <i class="fa-brands fa-react"></i>
+                    <span>React</span>
+                </div>
+            </div>
+        </section>
+        <!--SECTION:3 _ TESTIMONY-->
+        <section id="testimony" class="testimony-section">
+            <h2>Tesitimony</h2>
+            <div class="group">
+                <div class="person-details">
+                    <img src="testimony-headshot.jpg" alt="tesimony-person">
+                    <p>John Doe</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="text">
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quo magni repellat error, perspiciatis cupiditate officiis labore nemo, odit quam quasi officia facere sunt dolores quos saepe sint veniam repudiandae veritatis. Nobis quasi corrupti iure, a, blanditiis delectus odio repellendus quaerat voluptates pariatur, accusamus error! Odit reiciendis numquam sint adipisci!"
+                </div>
+            </div>
+        </section>
+        <!--SECTION:4 - CONTACT-->
+        <section id="contact" class="contact-section">
+         <h2>Contact</h2>
+
+         <div class="group">
+            <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis possimus natus ab eveniet atque at rerum! Ratione consequatur excepturi et perferendis quidem. Obcaecati ipsa quis ullam, placeat enim adipisci dolor quibusdam magnam reiciendis autem eveniet pariatur tempora aspernatur ab velit laborum consectetur dolorem dicta? Recusandae numquam quia accusantium dolore impedit.
+            </div>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+
+                <label for="email">E-Mail</label>
+                <input type="email" id="email">
+
+                <label for="massage">Massage</label>
+                <textarea id="massage" cols="30" rows="10"></textarea>
+            
+                <button type="submit">Send Massage</button>
+            </form>
+         </div>
+        </section>
+    </main>
+</body>
+</html>
